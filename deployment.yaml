@@ -3,4 +3,4 @@ git:
     branch: master
 deployment:
   replicas: 1
-  memory_request: '30Mi'
+  memory_request: '10Mi'
