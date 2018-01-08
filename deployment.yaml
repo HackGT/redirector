@@ -1,0 +1,6 @@
+git:
+    remote: https://github.com/HackGT/redirector.git
+    branch: master
+deployment:
+  replicas: 1
+  memory_request: '30Mi'
