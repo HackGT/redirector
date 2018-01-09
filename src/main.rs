@@ -19,6 +19,7 @@ fn main() {
     let header = format!(
         "HTTP/1.1 307 Temporary Redirect\r\n\
          Location: {}\r\n\
+         Content-Length: 0\r\n\
          \r\n", redirect);
     let header = header.as_bytes();
 
